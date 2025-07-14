@@ -80,7 +80,7 @@ class NewTaskModalView: UIView {
     
     @IBAction func submitButtonTapped(_ sender: Any) {
         guard let caption = descriptionTextView.text,
-              descriptionTextView.textColor != UIColor.placeholderText, caption.count >= 4 && caption.count <= 50 else
+              descriptionTextView.textColor != UIColor.placeholderText,caption.count >= 4 else
         {
             delegate?.presentErrorAlert(title: "Caption Error", message: "Caption must be at least 4 characters long")
             shakeAnimation()
