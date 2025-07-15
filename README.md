@@ -8,4 +8,4 @@ The ToDoList App is a simple and intuitive mobile application designed to help u
 </p>
 
 ## License
-ToDoList App is released under MIT License. See license for details
+ToDoList App is released under MIT License. [See license](https://github.com/Liyanasiyad/ToDoList/blob/main/LICENSE) for details
